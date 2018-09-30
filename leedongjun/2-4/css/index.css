@@ -1,0 +1,18 @@
+.img-box {
+    border: solid 1px;
+    width: 400px;
+}
+
+.img-content {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-image: url('/2-4/img/test.jpg');
+    background-size: 100px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
