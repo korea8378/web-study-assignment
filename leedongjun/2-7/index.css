@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    background-image: url('https://github.com/LimEunSeop/assets/blob/master/images/mission%202-7/BG.png?raw=true');
+    background-size: cover;
+    width: 1920px;
+    height: 777px;
+}
+
+.container {
+    position: relative;
+}
+
+[class^="content-"] {
+    position: absolute;
+    background-size: cover;
+}
+
+[class*="planet-"] {
+    width: 100px;
+    height: 100px;
+}
+
+.content-1.logo {
+    background-image: url('https://github.com/LimEunSeop/assets/blob/master/images/mission%202-7/nexon%20title.png?raw=true');
+    width: 530px;
+    height: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+}
+
+.content-2.lobot-left {
+    background-image: url('https://github.com/LimEunSeop/assets/blob/master/images/mission%202-7/robot-left.png?raw=true');
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    top: 480px;
+}
+
+.content-3.lobot-right {
+    background-image: url('https://github.com/LimEunSeop/assets/blob/master/images/mission%202-7/robot-right.png?raw=true');
+    width: 190px;
+    height: 250px;
+    right: 425px;
+    top: 450px;
+}
+
+.content-4.planet-left {
+    background-image: url('https://github.com/LimEunSeop/assets/blob/master/images/mission%202-7/planet-left.png?raw=true');
+    left: 327px;
+    top: 245px;
+}
+
+.content-5.planet-right {
+    background-image: url('https://github.com/LimEunSeop/assets/blob/master/images/mission%202-7/planet-right.png?raw=true');
+    right: 354px;
+    top: 61px;
+}
+
+.content-6.play-video {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 400px;
+}

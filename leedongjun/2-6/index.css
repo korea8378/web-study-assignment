@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+[class^="content-"] {
+    position: absolute;
+    background-size: cover;
+}
+
+.content-1.clothes-1 {
+    background-image: url('https://s33.postimg.cc/jsj73j0tb/css-layout_positioning-01_0000_shole.png');
+    width: 150px;
+    height: 200px;
+    top: 50px;
+    left: 100px;
+}
+
+.content-2.model-1 {
+    background-image: url('https://s33.postimg.cc/gyg1q4gnj/css-layout_positioning-01_0000s_0001_model-1.png');
+    width: 130px;
+    height: 280px;
+    left: 390px;
+    top: 90px;
+    z-index: 20;
+}
+
+.content-3.model-2 {
+    background-image: url('https://s33.postimg.cc/l7krsa4hb/css-layout_positioning-01_0000s_0000_model-2.png');
+    width: 130px;
+    height: 270px;
+    left: 570px;
+    top: 70px;
+    z-index: 20;
+}
+
+.content-4.logo-1 {
+    background-image: url('https://s33.postimg.cc/ba9qz7p5r/css-layout_positioning-01_0000s_0002_D.png');
+    width: 62px;
+    height: 55px;
+    left: 530px;
+    top: 270px;
+    z-index: 20;
+}
+
+.content-5.logo-2 {
+    background-image: url('https://s33.postimg.cc/cpbbnxatb/css-layout_positioning-01_0000s_0003_C.png');
+    width: 47px;
+    height: 57px;
+    left: 530px;
+    top: 80px;
+    z-index: 20;
+}
+
+.content-6.logo-3 {
+    background-image: url('https://s33.postimg.cc/d22pu3ldb/css-layout_positioning-01_0000s_0004_symbol.png');
+    width: 30px;
+    height: 20px;
+    left: 540px;
+    top: 185px;
+    z-index: 20;
+}
+
+.content-7.name-1 {
+    background-image: url('https://s33.postimg.cc/fw5v7k2z3/css-layout_positioning-01_0000s_0005_Christian-_Dior.png');
+    width: 115px;
+    height: 15px;
+    left: 314px;
+    top: 280px;
+    z-index: 20;
+}
+
+.content-8.back-logo {
+    background-image: url('https://s33.postimg.cc/7qnt9fhb3/css-layout_positioning-01_0000s_0006_BG.png');
+    width: 450px;
+    height: 350px;
+    left: 300px;
+    z-index: 10;
+}
+
+.content-9.bag {
+    background-image: url('https://s33.postimg.cc/nowizjw3j/css-layout_positioning-01_0001_bag.png');
+    width: 120px;
+    height: 120px;
+    left: 830px;
+    top: 100px;
+    z-index: 10;
+}
